@@ -11,11 +11,67 @@
     --colorBlueSoft: hsl(214, 73%, 36%);
     --colorWhite: hsl(0, 0%, 98%);
     --colorBlack: hsl(0, 0%, 9%);
-    --fontPrincipal: 'Poppins', sans-serif; /*300 400 500 700*/
+    --fontPrincipal: 'Open Sans', sans-serif; /*300 400 500 700*/
 }
 
 body {
     font-family: var(--fontPrincipal);
 }
 
+/* Navigation */
+nav {    
+    padding: 1.5rem 1rem;
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
+}
 
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    margin: 0 0.6rem;
+    color: var(--colorWhite);
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: 0.4s;
+    border-bottom: 1.5px solid transparent;
+}
+
+nav ul li a:hover {
+    color: var(--colorRed);
+    transition: 0.4s;
+    border-bottom: 1.5px solid var(--colorRed);
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18%;
+    background-image: url(../images/player/Griezmann3Edit.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 7rem;
+    color: var(--colorRed);
+}
+
+header p {
+    font-size: 2rem;
+    padding: 0.4rem;
+    margin: 1rem 0;
+    background-color: var(--colorRed);
+    color: var(--colorWhite);
+}
