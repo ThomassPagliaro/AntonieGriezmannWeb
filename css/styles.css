@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --colorRed: hsl(356, 75%, 51%);
+    --colorRedSoft: hsl(356, 72%, 52%);
+    --colorBlue: hsl(214, 83%, 34%);
+    --colorBlueSoft: hsl(214, 73%, 36%);
+    --colorWhite: hsl(0, 0%, 98%);
+    --colorBlack: hsl(0, 0%, 9%);
+    --fontPrincipal: 'Poppins', sans-serif; /*300 400 500 700*/
+}
+
+body {
+    font-family: var(--fontPrincipal);
+}
+
+
