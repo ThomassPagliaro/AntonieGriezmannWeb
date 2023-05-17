@@ -156,4 +156,61 @@ header p {
 
 .sectionProfile .profileRight .rightDatesTwo ul li p{
     color: var(--colorBlack);
+    font-weight: 600;
+}
+
+/* Stats */
+
+.statsSection, .trofeosSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    /* margin: 2rem 0; */
+}
+
+.statsSection h2, .trofeosSection h2 {
+    display: inline-block;
+    background-color: var(--colorRed);
+    color: var(--colorWhite);
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    /* margin-bottom: 0.4rem; */
+    letter-spacing: 0.2rem;
+}
+
+.statsSection .statsDiv, .trofeosSection .trofeosDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.statsSection div, .trofeosSection div {
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statsSection div h3 {
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 500;
+    margin: 0.2rem 0;
+}
+
+.statsSection div p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0.2rem;
+}
+
+.trofeosSection span {
+    font-size: 1.1rem;
+    margin: 0.2rem;
+    color: gray;
 }
