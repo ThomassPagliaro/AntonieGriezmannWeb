@@ -133,7 +133,13 @@ header p {
 
 .sectionProfile .profileRight .centerDates p {
     font-size: 1.2rem;
-    margin: 2.5rem 0;
+    margin: 2rem 0;
+    /* width: 24rem; */
+}
+
+.sectionProfile .profileRight .centerDates span {
+    color: gray;
+    /* color: var(--colorRed); */
 }
 
 .sectionProfile .profileRight .rightDatesTwo h2 {
