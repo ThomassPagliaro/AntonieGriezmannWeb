@@ -22,8 +22,8 @@ body {
 /* Navigation */
 nav {    
     padding: 1.5rem 1rem;
-    background-color: var(--colorBlack);
-    color: var(--colorWhite);
+    /* background-color: var(--colorBlack); */
+    /* color: var(--colorWhite); */
 }
 
 nav ul{
@@ -37,7 +37,7 @@ nav ul li {
 }
 nav ul li a {
     margin: 0 0.6rem;
-    color: var(--colorWhite);
+    color: var(--colorBlack);
     text-decoration: none;
     font-size: 1.4rem;
     transition: 0.4s;
@@ -128,13 +128,14 @@ header p {
 }
 
 .sectionProfile .profileRight .centerDates {
-    width: 30rem;
+    width: 90%;
 }
 
 .sectionProfile .profileRight .centerDates p {
     font-size: 1.2rem;
     margin: 2rem 0;
-    /* width: 24rem; */
+    /* width: 96%; */
+
 }
 
 .sectionProfile .profileRight .centerDates span {
@@ -219,4 +220,42 @@ header p {
     font-size: 1.1rem;
     margin: 0.2rem;
     color: gray;
+}
+
+/* Social media */
+
+.sectionGames {
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 10%;
+}
+
+.sectionGames .gamesLeft {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0 4rem;
+}
+
+.sectionGames .gamesLeft img{
+    width: 32rem;
+    border-radius: 0.4rem;
+}
+
+.sectionGames .gamesRight h2 {
+    display: inline-block;
+    background-color: var(--colorRed);
+    color: var(--colorWhite);
+    font-size: 1.4rem;
+    /* padding: 1.6rem 0; */
+    padding: 0 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.sectionGames .gamesRight p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 30rem;
+    margin: 1rem 0;
 }
