@@ -222,9 +222,9 @@ header p {
     color: gray;
 }
 
-/* Social media */
+/* Life */
 
-.sectionGames {
+.sectionGames, .sectionNba, .sectionFamily {
     display: flex;
     /* grid-template-columns: repeat(2, 1fr); */
     justify-content: center;
@@ -232,18 +232,16 @@ header p {
     margin: 6rem 10%;
 }
 
-.sectionGames .gamesLeft {
-    /* display: flex; */
-    /* justify-content: center; */
+.sectionGames .gamesLeft, .sectionNba .nbaRight, .sectionFamily .familyLeft {
     margin: 0 4rem;
 }
 
-.sectionGames .gamesLeft img{
+.sectionGames .gamesLeft img, .sectionNba .nbaRight img, .sectionFamily .familyLeft img{
     width: 32rem;
     border-radius: 0.4rem;
 }
 
-.sectionGames .gamesRight h2 {
+.sectionGames .gamesRight h2, .sectionNba .nbaLeft h2,  .sectionFamily .familyRight h2{
     display: inline-block;
     background-color: var(--colorRed);
     color: var(--colorWhite);
@@ -253,7 +251,7 @@ header p {
     letter-spacing: 0.2rem;
 }
 
-.sectionGames .gamesRight p {
+.sectionGames .gamesRight p, .sectionNba .nbaLeft p, .sectionFamily .familyRight p {
     font-size: 1.2rem;
     line-height: 2rem;
     width: 30rem;
