@@ -79,8 +79,8 @@ header p {
 /* Profile */
 
 .sectionProfile {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     justify-content: center;
     align-items: center;
     padding: 8rem 0;

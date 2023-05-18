@@ -27,9 +27,8 @@
     }
 
     .sectionProfile .profileRight .centerDates {
-        width: 100%;
-        /* display: flex; */
-        /* flex-direction: column; */
+        width: 90%;
+        margin: 0 2rem ;
         justify-content: center;
         align-items: center;
     }
@@ -52,6 +51,7 @@
 }
 
 @media only screen and (max-width: 950px) {
+   
     nav ul li a {
         font-size: 1.2rem;
     }
@@ -62,6 +62,12 @@
     header p {
         font-size: 1rem;
     }
+
+    .sectionProfile {
+        flex-direction: column;
+     }
+ 
+
     .sectionGames, .sectionFamily {
         flex-direction: column;
     }
@@ -76,7 +82,6 @@
 
     .sectionProfile .profileLeft img {
         width: 22rem;
-    
     }
 }
 
@@ -84,4 +89,55 @@
     header p {
         font-size: 0.8rem;
     }
+
+     .sectionProfile .profileLeft img {
+        width: 16rem;
+    }
+
+    
+    .sectionProfile {
+       flex-direction: column;
+        margin: 0 4rem;
+    }
+
+    .sectionProfile .profileLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionProfile .profileRight {
+        margin: 4rem 0;
+    }
+
+    .sectionProfile .profileRight .centerDates {
+        /* display: none; */
+    }
+
+    .sectionProfile .profileRight .rightDatesOne  {
+        display: none;
+    }
+
+    .sectionProfile .profileRight .rightDatesOne h2{
+        font-size: 1.2rem;
+    }
+
+    .sectionProfile .profileLeft h2 {
+        display: none;
+    }
+
+    .trofeosSection .trofeosDiv, .statsSection .statsDiv {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* .sectionProfile .profileRight .rightDatesTwo ul li {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    } */
+    
 }
