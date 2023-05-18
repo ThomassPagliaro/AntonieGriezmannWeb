@@ -94,8 +94,8 @@
         font-size: 0.8rem;
     }
 
-     .sectionProfile .profileLeft img {
-        width: 16rem;
+     .sectionProfile .profileLeft img, .sectionGames .gamesLeft img, .sectionFamily .familyLeft img {
+        width: 18rem;
     }
 
     
