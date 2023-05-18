@@ -91,17 +91,22 @@
 
 @media only screen and (max-width: 650px) {
     header p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
-     .sectionProfile .profileLeft img, .sectionGames .gamesLeft img, .sectionFamily .familyLeft img {
+    .sectionProfile .profileLeft img {
+        width: 16rem;
+        margin: 2rem 0;
+    }
+
+     .sectionGames .gamesLeft img, .sectionFamily .familyLeft img {
         width: 16rem;
     }
 
     
     .sectionProfile {
        flex-direction: column;
-        margin: 0 4rem;
+        margin: 0 2rem;
     }
 
     .sectionProfile .profileLeft{
@@ -112,11 +117,11 @@
     }
 
     .sectionProfile .profileRight {
-        margin: 4rem 0;
+        margin: 6rem 0 0 0;
     }
 
     .sectionProfile .profileRight .centerDates {
-        /* display: none; */
+        display: none;
     }
 
     .sectionProfile .profileRight .rightDatesOne  {
@@ -137,17 +142,5 @@
 
     .sectionGames .gamesRight p, .sectionFamily .familyRight p {
         width: 22rem;
-        font-size: 1.1rem;
-
     }
-
-    /* .sectionProfile .profileRight .rightDatesTwo ul li {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-    } */
-    
 }
