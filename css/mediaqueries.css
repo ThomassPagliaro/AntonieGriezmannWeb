@@ -95,7 +95,7 @@
     }
 
      .sectionProfile .profileLeft img, .sectionGames .gamesLeft img, .sectionFamily .familyLeft img {
-        width: 18rem;
+        width: 16rem;
     }
 
     
@@ -133,6 +133,12 @@
 
     .trofeosSection .trofeosDiv, .statsSection .statsDiv {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sectionGames .gamesRight p, .sectionFamily .familyRight p {
+        width: 22rem;
+        font-size: 1.1rem;
+
     }
 
     /* .sectionProfile .profileRight .rightDatesTwo ul li {
