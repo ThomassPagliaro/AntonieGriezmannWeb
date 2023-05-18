@@ -22,8 +22,8 @@ body {
 /* Navigation */
 nav {    
     padding: 1.5rem 1rem;
-    /* background-color: var(--colorBlack); */
-    /* color: var(--colorWhite); */
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
 }
 
 nav ul{
@@ -37,7 +37,7 @@ nav ul li {
 }
 nav ul li a {
     margin: 0 0.6rem;
-    color: var(--colorBlack);
+    color: var(--colorWhite);
     text-decoration: none;
     font-size: 1.4rem;
     transition: 0.4s;
@@ -265,17 +265,17 @@ header p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 2rem; */
     padding: 2rem;
-    /* background-color: var(--colorBlack); */
-    /* color: var(--colorWhite); */
+    margin: 2rem 0;
 }
 
 .sectionSocialMedia h2 {
-    margin: 2rem;
     display: inline-block;
+    background-color: var(--colorRed);
+    color: var(--colorWhite);
     font-size: 1.6rem;
     padding: 0 1rem;
+    margin: 4rem;
     letter-spacing: 0.2rem;
 }
 
@@ -291,4 +291,19 @@ header p {
 .sectionSocialMedia div a:hover {
     color: var(--colorRed);
     transition: 0.6s;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+footer p {
+    font-size: 1.1rem;
 }
