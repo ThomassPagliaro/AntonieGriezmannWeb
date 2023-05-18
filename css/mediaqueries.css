@@ -48,6 +48,10 @@
     header p {
         font-size: 1.4rem;
     }
+
+    .sectionProfile {
+        flex-direction: column;
+     }
 }
 
 @media only screen and (max-width: 950px) {
