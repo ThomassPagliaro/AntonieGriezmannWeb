@@ -84,7 +84,7 @@ header p {
     justify-content: center;
     align-items: center;
     padding: 8rem 0;
-    margin: 0 15%;
+    margin: 0 22rem;
 }
 
 .sectionProfile .profileLeft{
@@ -108,10 +108,11 @@ header p {
 .sectionProfile .profileRight .rightDatesOne  {
     display: flex;
     gap: 4rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .sectionProfile .profileRight .rightDatesOne h2 {
-    /* display: inline-block; */
     background-color: var(--colorRed);
     color: var(--colorWhite);
     font-size: 1.6rem;
@@ -168,26 +169,26 @@ header p {
 
 /* Stats */
 
-.statsSection, .trofeosSection {
+.statsSection{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
-    /* margin: 2rem 0; */
+    padding: 6rem 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.statsSection h2, .trofeosSection h2 {
+.statsSection h2 {
     display: inline-block;
     background-color: var(--colorRed);
     color: var(--colorWhite);
     font-size: 1.4rem;
     padding: 0 1rem;
-    /* margin-bottom: 0.4rem; */
     letter-spacing: 0.2rem;
 }
 
-.statsSection .statsDiv, .trofeosSection .trofeosDiv {
+.statsSection .statsDiv {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
@@ -195,7 +196,7 @@ header p {
 }
 
 
-.statsSection div, .trofeosSection div {
+.statsSection div {
     margin: 0.8rem;
     display: flex;
     flex-direction: column;
@@ -216,32 +217,25 @@ header p {
     margin: 0.2rem;
 }
 
-.trofeosSection span {
-    font-size: 1.1rem;
-    margin: 0.2rem;
-    color: gray;
-}
-
 /* Life */
 
-.sectionGames, .sectionNba, .sectionFamily {
+.sectionGames, .sectionFamily {
     display: flex;
     /* grid-template-columns: repeat(2, 1fr); */
     justify-content: center;
     align-items: center;
-    margin: 8rem 10%;
+    margin: 8rem 0;
 }
 
-.sectionGames .gamesLeft, .sectionNba .nbaRight, .sectionFamily .familyLeft {
+.sectionGames .gamesLeft, .sectionFamily .familyLeft {
     margin: 0 4rem;
 }
 
-.sectionGames .gamesLeft img, .sectionNba .nbaRight img, .sectionFamily .familyLeft img{
+.sectionGames .gamesLeft img, .sectionFamily .familyLeft img{
     width: 32rem;
-    border-radius: 0.4rem;
 }
 
-.sectionGames .gamesRight h2, .sectionNba .nbaLeft h2,  .sectionFamily .familyRight h2{
+.sectionGames .gamesRight h2,  .sectionFamily .familyRight h2{
     display: inline-block;
     background-color: var(--colorRed);
     color: var(--colorWhite);
@@ -251,11 +245,52 @@ header p {
     letter-spacing: 0.2rem;
 }
 
-.sectionGames .gamesRight p, .sectionNba .nbaLeft p, .sectionFamily .familyRight p {
+.sectionGames .gamesRight p, .sectionFamily .familyRight p {
     font-size: 1.2rem;
     line-height: 2rem;
-    width: 30rem;
+    width: 26rem;
     margin: 1rem 0;
+}
+
+/* Trofeos */
+.trofeosSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 6rem 0;
+    margin: 6rem 0;
+}
+
+.trofeosSection h2 {
+    display: inline-block;
+    background-color: var(--colorRed);
+    color: var(--colorWhite);
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.trofeosSection .trofeosDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;    
+}
+
+.trofeosSection div {
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trofeosSection span {
+    font-size: 1.1rem;
+    margin: 0.2rem;
+    color: gray;
 }
 
 /* Social media */
