@@ -93,6 +93,7 @@
 
     header {
         padding: 46%;
+        display: none;
     }
     header h1 {
         font-size: 1.6rem;
@@ -105,8 +106,8 @@
 
     .sectionProfile .profileLeft img {
         width: 16rem;
-        margin: 2rem 0;
-        display: none;
+        margin: 1rem 0;
+        /* display: none; */
     }
 
      .sectionGames .gamesLeft img, .sectionFamily .familyLeft img {
